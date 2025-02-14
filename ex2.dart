@@ -1,13 +1,14 @@
-//import 'dart:io';
+import 'dart:io';
 
 void main(){
-    int numero1 = 1;
-    int numero2 = 2;
+    int numero1;
+    int numero2;
+    print("Digite dois números inteiros e faremos as quatro operações básicas (soma, subtração, multiplicação e divisão)");
  
-    /*print("Digite um número: ");
-    //numero1 = int.parse(stdin.readLineSync()!);
+    print("Digite um número: ");
+    numero1 = int.parse(stdin.readLineSync()!);
     print("Digite mais um número: ");
-    numero2 = int.parse(stdin.readLineSync()!);*/
+    numero2 = int.parse(stdin.readLineSync()!);
   
   int soma(int a, int b){
   return a + b;

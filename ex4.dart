@@ -1,22 +1,22 @@
-//import 'dart:io';
+import 'dart:io';
 
 void main(){
-    double peso = 70;
-    double altura = 1.60;
+    double peso;
+    double altura;
  
-    /*print("Digite seu peso: ");
-    //peso = double.parse(stdin.readLineSync()!);
+    print("Digite seu peso: ");
+    peso = double.parse(stdin.readLineSync()!);
     print("Digite sua altura: ");
-    altura = double.parse(stdin.readLineSync()!);*/
+    altura = double.parse(stdin.readLineSync()!);
   
   double imc(double p, double a){
     return p/(a*a);
   }
   
   /*• Abaixo do peso (IMC < 18.5)
-• Peso normal (IMC entre 18.5 e 24.9)
-• Sobrepeso (IMC entre 25 e 29.9)
-• Obesidade (IMC ≥ 30)*/
+    • Peso normal (IMC entre 18.5 e 24.9)
+    • Sobrepeso (IMC entre 25 e 29.9)
+    • Obesidade (IMC ≥ 30)*/
   
   print("Seu IMC é: ");
   print(imc(peso, altura));
